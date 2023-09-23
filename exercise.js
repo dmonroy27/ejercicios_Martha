@@ -1,4 +1,5 @@
 var respuesta =prompt("ingrese un numero");
+ 
 if(respuesta >= 1 ){
     alert('es positivo');
 } else if(respuesta < 0){

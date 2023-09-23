@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var frutas =Number(prompt ("cuantas libras de manzana vas a llevar"));
+        var precio =Number(prompt ("precio lb de manzana"));
+
+        if(frutas >=5){
+            total = frutas *precio
+            precio = total -total *0.20
+            alert("por la compra de 5 libras tienes un descuento del 20% el precio seria" +precio+ "pesos");
+        }else if(frutas ==2){
+            total = frutas *precio
+            precio = total -total *0.10
+            alert("tiene un 15% de descuento pagarias in precio de "+precio+"pesos");
+        }else{
+            alert("no tiene descuento");
+        }
+
+
+    </script>
+
+        
+    
+</body>
+</html>
